@@ -15,4 +15,6 @@ ETL project to scrap content from wikipidea and coverts into database using sqli
 
 ![dag](https://github.com/danlabset/ETL-Python-Wikipidea/assets/159712629/10426b5d-2883-4aa5-ac3e-78444d5d7222)
 
+# Airflow dashboard
 
+![dagss](https://github.com/danlabset/ETL-Python-Wikipidea/assets/159712629/d0a025cc-3078-4317-9e6c-d95dff1015d8)
