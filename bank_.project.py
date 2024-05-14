@@ -42,7 +42,7 @@ def transform(df):
     df['MC_GBP_Billion'] = [np.round(x*exchange_rate['GBP'],2) for x in df['MC_USD_Billion']]
     df['MC_EUR_Billion'] = [np.round(x*exchange_rate['EUR'],2) for x in df['MC_USD_Billion']]
     df['MC_INR_Billion'] = [np.round(x*exchange_rate['INR'],2) for x in df['MC_USD_Billion']]
-    print(f"output of df['MC_EUR_Billion'][4]:",df['MC_USD_Billion'][5])
+    print(f"output of df['MC_EUR_Billion'][4]:",df['MC_USD_Billion'][5])git
     return df
 
 def load_to_csv(df, csv_path):
